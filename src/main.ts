@@ -1,8 +1,4 @@
-import './app.css'
-import App from './App.svelte'
+export * from './lib/Counter.svelte'
+export * from './lib/Umsatzanzeige.svelte'
+export * from './lib/UmsatzanzeigeSmall.svelte'
 
-const app = new App({
-  target: document.getElementById('app')
-})
-
-export default app
